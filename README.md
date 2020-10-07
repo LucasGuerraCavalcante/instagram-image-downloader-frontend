@@ -2,4 +2,4 @@ This version is currently in development, so the deploy doesn't work properly ye
 
 Please clone the original repository of this project, it'll work if you run locally.
 
-https://github.com/LucasGuerraCavalcante/instagram-image-downloader
+Original repository: https://github.com/LucasGuerraCavalcante/instagram-image-downloader
