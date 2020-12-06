@@ -8,6 +8,15 @@ const Form = ({ images }) => {
     <div className="imagesWrapper">
         {images.length === 0 && (<p>...</p>)}
 
+        {images.src == 'Loading' && (
+          <div className="loadingWrapper">
+            <div className="title">
+              <h2>Loading</h2>
+            </div>
+            <div className="loader" />
+          </div>
+        )}
+
         {images.length >= 1 && (
                 images.map((image) => {
                     console.log(image)

@@ -27,6 +27,8 @@ const Form = ({ setImages }) => {
 
     function formSend(event) {
         event.preventDefault();
+
+        setImages({src: 'Loading'});
     
         const formUrl = inputData;
         setUrl(formUrl);
