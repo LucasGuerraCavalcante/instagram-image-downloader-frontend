@@ -9,7 +9,9 @@ const Form = ({ setImages }) => {
     const [inputData, setInputData] = useState('')
 
     useEffect(() => {
-        axios.get(`https://iid-backend.herokuapp.com/?url=${url}`)
+      // https://iid-backend.herokuapp.com
+      // http://localhost:5001/
+        axios.get(`https://iid-backend.herokuapp.com/search?url=${url}`)
             .then(response => {
                 console.log(response);
                 const images = response.data.map(image => image);
