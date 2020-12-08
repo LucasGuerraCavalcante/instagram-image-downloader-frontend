@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiDownload } from 'react-icons/fi';
 
 import './styles.css'
 
@@ -36,7 +37,9 @@ const Form = ({ images }) => {
                     return (
                         <div key={image.alt} className="imgBox" >
                             <img src={image.src} alt={image.alt} className="image" />
-                            <span className="imgAlt" >{image.alt}</span>
+                            <div class="overlay">
+                              <FiDownload class="icon" />
+                          </div>
                         </div>
                     )
                 }) 
