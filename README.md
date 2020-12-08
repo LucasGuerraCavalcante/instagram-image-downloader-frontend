@@ -1,5 +1,31 @@
-This version is currently in development, so the deploy doesn't work properly yet.
+## Instagram Image Downloader (Front-end)
 
-Please clone the original repository of this project, it'll work if you run locally.
+Instagram image dowloader APP (URL Web Scraping)
 
-Original repository: https://github.com/LucasGuerraCavalcante/instagram-image-downloader
+The Front-end for an Instagram image downloader APP - React.js (Front-end) and Node.js (Express and Puppeteer - Backend API - Web Scraping).
+
+### Back-end (api)
+> Node JS (Express and Puppeteer)
+
+> Repository is currently private
+
+> Deploy : https://iid-backend.herokuapp.com/
+
+> An older back-end version is available here: https://github.com/LucasGuerraCavalcante/instagram-image-downloader
+
+### Front-end
+> React JS 
+
+> npm install > npm start
+
+> yarn install -> yarn start
+
+> Deploy : https://instagram-image-downloader-frontend-16yxb7b4d.vercel.app/
+
+![img1](https://i.imgur.com/tNwJUld.png)
+
+![img1](https://i.imgur.com/VzYBA4N.png)
+
+![img1](https://i.imgur.com/mlKBj64.png)
+
+Credits: https://www.instagram.com/jordhammond/ (@jordhammond)
